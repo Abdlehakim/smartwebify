@@ -1,0 +1,29 @@
+# backend/docker-compose.yml
+services:
+  redis:
+    image: redis:7
+    restart: unless-stopped
+    ports:
+      - "6379:6379"   # optional, for debugging from host
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: ./.env.docker   # path is relative to THIS file
+    environment:
+      RUN_MODE: "api"
+    depends_on:
+      - redis
+    ports:
+      - "3000:3000"
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: ./.env.docker
+    environment:
+      RUN_MODE: "worker"
+    depends_on:
+      - redis

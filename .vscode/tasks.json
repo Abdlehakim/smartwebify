@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Open Backend Terminal",
+      "type": "shell",
+      "command": "cd backend && bash",
+      "isBackground": true,
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" },
+      "runOptions": { "runOn": "folderOpen" },
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "always",
+        "focus": false
+      }
+    },
+    {
+      "label": "Open Frontend Terminal",
+      "type": "shell",
+      "command": "cd frontend && bash",
+      "isBackground": true,
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" },
+      "runOptions": { "runOn": "folderOpen" },
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "always",
+        "focus": false
+      }
+    },
+    {
+      "label": "Open FrontendAdmin Terminal",
+      "type": "shell",
+      "command": "cd frontendadmin && bash",
+      "isBackground": true,
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" },
+      "runOptions": { "runOn": "folderOpen" },
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "always",
+        "focus": false
+      }
+    }
+  ]
+}
