@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Open Backend Terminal",
+      "label": "Open Backendsw Terminal",
       "type": "shell",
-      "command": "cd backend && bash",
+      "command": "cd backendsw && bash",
       "isBackground": true,
       "problemMatcher": [],
       "options": { "cwd": "${workspaceFolder}" },
@@ -16,9 +16,9 @@
       }
     },
     {
-      "label": "Open Frontend Terminal",
+      "label": "Open Frontendsw Terminal",
       "type": "shell",
-      "command": "cd frontend && bash",
+      "command": "cd frontendsw && bash",
       "isBackground": true,
       "problemMatcher": [],
       "options": { "cwd": "${workspaceFolder}" },
@@ -30,9 +30,9 @@
       }
     },
     {
-      "label": "Open FrontendAdmin Terminal",
+      "label": "Open frontendadminsw Terminal",
       "type": "shell",
-      "command": "cd frontendadmin && bash",
+      "command": "cd frontendadminsw && bash",
       "isBackground": true,
       "problemMatcher": [],
       "options": { "cwd": "${workspaceFolder}" },

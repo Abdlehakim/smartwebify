@@ -6,15 +6,15 @@
       "path": "C:\\Program Files\\Git\\bin\\bash.exe",
       "args": ["-i"]
     },
-    "Git Bash (Backend)": {
+    "Git Bash (backendsw)": {
       "path": "C:\\Program Files\\Git\\bin\\bash.exe",
       "args": ["-i"],
-      "cwd": "${workspaceFolder}/backend"
+      "cwd": "${workspaceFolder}/backendsw"
     },
-    "Git Bash (Frontend)": {
+    "Git Bash (frontendsw)": {
       "path": "C:\\Program Files\\Git\\bin\\bash.exe",
       "args": ["-i"],
-      "cwd": "${workspaceFolder}/frontend"
+      "cwd": "${workspaceFolder}/frontendsw"
     }
   }
 }
