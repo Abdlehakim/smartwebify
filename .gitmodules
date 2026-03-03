@@ -1,14 +1,14 @@
 [submodule "backendsw"]
 	path = backendsw
-	url = https://github.com/Abdlehakim/backend.git
+	url = https://github.com/Abdlehakim/backendsw.git
 	branch = main
 
 [submodule "frontendadminsw"]
 	path = frontendadminsw
-	url = https://github.com/Abdlehakim/frontendadmin.git
+	url = https://github.com/Abdlehakim/frontendadminsw.git
 	branch = main
 
 [submodule "frontendsw"]
 	path = frontendsw
-	url = https://github.com/Abdlehakim/frontend.git
+	url = https://github.com/Abdlehakim/frontendsw.git
 	branch = main
